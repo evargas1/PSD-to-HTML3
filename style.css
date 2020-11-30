@@ -1,0 +1,357 @@
+body {
+  font-family: "Merriweather", serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+#header_area {
+  border-top: 5px solid #e57c5a;
+  border-bottom: 1px solid #e57c5a;
+  padding: 20px 0;
+  background-color: #473d48;
+}
+.social_area {
+  width: 100%;
+  clear: both;
+  padding-bottom: 15px;
+}
+.social_area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.social_area ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+.social_area ul li a {
+  background-color: #e5ac54;
+  /* The color above is yellow */
+  width: 35px;
+  height: 35px;
+  color: #eff6fa;
+  display: block;
+  text-align: center;
+  padding-top: 9px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.social_area ul li a:hover {
+  background-color: #e57c5a;
+  /* The color above is orange */
+}
+#header_area .logo h2 {
+  float: right;
+  padding-top: 20px;
+  color: #eff6fa;
+  font-size: 23px;
+}
+#header_area .logo img {
+  border-radius: 100%;
+  border: 0.5px solid #dd5158;
+  /* display: inline-block; */
+}
+
+/* 
+Search Area Style
+*/
+.search_area {
+  text-align: right;
+  width: 100%;
+  /* clear: both; */
+  margin-bottom: 30px;
+  float: right;
+}
+/* .search_area input { */
+/* background-color: #eff6fa; */
+/* color: black; */
+/* border: 0px solid;
+  padding: 10px;
+  border-radius: 5px; */
+/* background-color: black; */
+/* } */
+/* .search_area input [type="text"] {
+  background-color: red;
+} */
+.search_area input[type="text"] {
+  border: 0px solid;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #eff6fa;
+}
+.search_area [type="submit"] {
+  background-color: #dd5158;
+  cursor: pointer;
+  transition: 0.5s;
+  border: 0px solid;
+  padding: 10px;
+  border-radius: 5px;
+  color: #eff6fa;
+}
+.search_area [type="submit"]:hover {
+  background-color: #918592;
+  /* Not an offical color try not to use */
+  color: #eff6fa;
+}
+
+#main_menu {
+  text-align: right;
+  float: right;
+}
+#main_menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#main_menu ul li {
+  display: inline-block;
+}
+#main_menu ul li a {
+  display: block;
+  font-size: 14px;
+  color: #eff6fa;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px 15px;
+}
+#main_menu ul li a:hover {
+  color: #e5ac54;
+}
+
+/* 
+Banner Area
+*/
+
+#banner_area {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#banner_area .item {
+  width: 100%;
+  overflow: hidden;
+}
+#banner_area .item img {
+  width: 100%;
+  height: auto;
+}
+.banner_text {
+  height: 30%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 10%;
+}
+.banner_table {
+  display: table;
+  height: 100%;
+  width: 50%;
+}
+.banner_align {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+  width: 100%;
+}
+.banner_textarea {
+  margin: 0 auto;
+  /* overflow: hidden;
+   */
+  width: 200px;
+}
+.main_banner {
+  float: right;
+  width: 50%;
+}
+/* .bx-wrapper .bx-pager {
+  color: #dd5158;
+  background-color: #dd5158;
+} */
+.main_banner h3 {
+  color: #6e646e;
+}
+.main_banner p {
+  color: black;
+}
+.main_banner a {
+  background-color: #dd5158 none repeat scroll 0 0;
+  border-radius: 25px;
+  color: #dd5158;
+  display: inline-block;
+  /* padding: 10px 20px; */
+  text-decoration: none;
+}
+.main_banner a:hover {
+  background-color: #473d48 none repeat scroll 0 0;
+  text-decoration: none;
+}
+
+/* #intro .middle_image img {
+  padding-right: 60px;
+} */
+/* 
+Intro code 
+*/
+#intro {
+  background-color: #eff6fa;
+  border-bottom: 5px solid #e57c5a;
+  padding-bottom: 40px;
+}
+#intro .col-md-4 {
+  align-items: center;
+}
+#intro h3 {
+  color: #473d48;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 10px;
+}
+#intro p {
+  color: #e57c5a;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 8px 0 15px 0;
+}
+#intro a {
+  color: #eff6fa;
+  text-transform: capitalize;
+  background-color: #473d48;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.5s;
+}
+#intro a:hover {
+  color: #473d48;
+  background-color: #e5ac54;
+  text-decoration: none;
+}
+
+/* 
+Servie area best resturants
+*/
+#service_area {
+  /* border-top: 1px solid green; */
+  padding: 50px 0;
+  background-color: #e5ac54;
+}
+.col-md-10 h4 {
+  padding: 30px 40px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  color: #473d48;
+  font-family: "Henny Penny", cursive;
+}
+#service_area .col-md-4 {
+  margin-bottom: 15px;
+}
+#service_area .col-md-4 img {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+#service_area .col-md-4 h4 {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+#service_area .col-md-4 h4 a {
+  color: #dd5158;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+#service_area .col-md-4 h4 a:hover {
+  color: #231c24;
+  font-size: 22px;
+  text-decoration: none;
+}
+#service_area .col-md-4 p {
+  font-size: 13px;
+  margin-bottom: 0;
+  line-height: 1.5em;
+  color: #473d48;
+}
+
+/* 
+Footer Area
+*/
+
+#footer_area {
+  background-color: #473d48;
+  padding: 40px 0;
+  color: #eff6fa;
+}
+#footer_area h3 {
+  font-size: 20px;
+}
+#footer_area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#footer_area ul li {
+  display: block;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #e5ac54;
+  font-size: 12px;
+}
+#footer_area ul li a {
+  color: #dd5158;
+  padding: 5px;
+  display: block;
+  text-decoration: none;
+  transition: 0.5s;
+}
+#footer_area ul li a:hover {
+  color: #e5ac54;
+  text-decoration: none;
+}
+#footer_area form {
+  width: 300px;
+  margin-bottom: 30px;
+}
+#footer_area [type="submit"] {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  /* color: aqua;
+  padding: 5px 5px;
+  font-size: 15px; */
+
+  background-color: #dd5158;
+  cursor: pointer;
+  transition: 0.5s;
+  border: 0px solid;
+  padding: 10px;
+  border-radius: 5px;
+  color: #eff6fa;
+}
+#footer_area [type="submit"]:hover {
+  background-color: #918592;
+  /* Not an offical color try not to use */
+  color: #eff6fa;
+}
+
+/* 
+Copyright section
+*/
+#copyright {
+  background-color: black;
+  padding: 20px 0;
+  color: #eff6fa;
+}
+#copyright p {
+  margin: 0;
+  font-size: 11px;
+}
+#copyright .col-md-6:last-child {
+  text-align: right;
+}
